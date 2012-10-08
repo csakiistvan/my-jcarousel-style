@@ -1,0 +1,15 @@
+<?php 
+
+/**
+* module_name_jcarousel_skin_info()
+*/
+
+function my_jcarousel_style_jcarousel_skin_info() {
+  $skins = array();
+
+  $skins['lectorium'] = array(
+    'title' => t('My style name'),
+    'file' => 'stylesheets/my-style.css',
+  );
+  return $skins;
+}
